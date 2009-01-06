@@ -1,0 +1,277 @@
+---
+records:
+  - title: Isaac Mizrahi NY
+    slug: mizrahi
+    description: |
+      With Intersect, I helped build a full featured content-managment system to support allow the Isaac Mizrahi team to manage and publish photos, videos, and articles with minimal technical knowledge. The system was built to support, not only the huge amount of content Isaac Mizrahi had created during his more then 20 years in fashion, but also new online-only video content 'Watch Isaac'  
+    links: 
+      - isaacmizrahiny.com
+    launched: Feb 1 2008
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - xhtml
+      - css
+      - flash
+      - sifr
+    features:
+      - cms
+      - social networking
+      - video
+  - title: wejetset
+    slug: wejetset
+    description: |
+      Wejetset is a online travel store and journal, melding both into a unique experience that presents products and ideas in a gorgeuous and unique way. With Intersect's design and a custom ecommerce + blog engine, the business has been able to continue to grow thier store and readsership since launch.
+    links: 
+      - wejetset.com
+      - www.quirkey.com/blog/2008/02/18/recent-project-wejetset/|on blog
+    launched: Oct 30 2007
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - xhtml
+      - css
+    features:
+      - blog
+      - ecommerce
+  - title: Indagare
+    description: |
+      Inadagare is an online magazine and community for luxury travel. Empowered by a custom content management system, the Indagare team was able to create and upload an astounding amount of articles, photos, and destination reports to the site with minimal help. Since launch the community has grown and a user profile system based around rewards and 'inspiration points' has taken off.
+    slug: indagare
+    launched: May 2007
+    links: 
+      - indagare.com
+      - www.quirkey.com/blog/2007/08/08/project-indagare/|on blog
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - xhtml
+      - css
+      - javascript
+    features:
+      - cms
+      - social networking
+      - forums
+  - title: CarZen
+    slug: carzen
+    description: |
+      From idea to prototype to full launch, I worked with CarZen as a partner, helping them develop a cutting edge website. By building an extensible restful API we were able to easily integrate a complex backend algorithm with a beautiful user-friendly Flash based interface designed by Intersect and Unity Theory. The jQuery javascript framework was also used to elevate the XHTML sections of the site to the level of thier Flash counterparts.
+    links: 
+      - carzen.com
+    launched: Oct 1 2008
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - rest
+      - javascript
+      - jquery
+    features:
+      - cms
+      - recommendation engine
+      - slideshows
+  - title: ClickBooq
+    slug: clickbooq
+    description: |
+      Clickbooq has a Flex based 'CMS' and a Flash based user frontend. Both of these sit on top of a rest/xml based backend that does all the heavy lifting of managing the user content and storing it on S3.
+    links: 
+      - clickbooq.com
+    launched: Aug 1 2007
+    technologies:
+      - ruby
+      - xml
+      - ruby on rails
+      - mysql
+      - rest
+      - s3
+    features:
+      - cms
+      - flash integration
+  - title: The Scout
+    slug: scout
+    description: |
+      The Scout is a collaboration between Quirkey and Friend & Stranger. Its a city guide (currently for New York) based around a design and modern mentaility.
+    links: 
+      - thescoutmag.com
+      - www.quirkey.com/blog/2008/08/28/the-scout-my-new-home-away-from-home-on-the-internet-about-my-home/|on blog
+    launched: Aug 15 2008
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - javascript
+      - sphinx search
+      - google maps
+    features:
+      - cms
+      - maps
+      - rss
+  - title: Lucky Style Spotter
+    slug: lucky
+    description: |
+      Lucky Style Spotter is an online community for Lucky Magazine. Users can upload 'looks' which can be rated by the community.
+    links: 
+      - luckystylespotter.com
+    launched: Feb 1 2008
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+      - javascript
+      - sphinx search
+    features:
+      - cms
+      - forums
+      - social networking
+      - user uploads
+  - title: Kates Paperie
+    slug: kates
+    description: |
+      Kates Paperie is a full-featured ecommerce site that is integrated with the business POS and inventory management solution with a private restful API.
+    launched: Oct 20 2008
+    links:
+      - katespaperie.com
+    technologies:
+      - ruby 
+      - ruby on rails
+      - mysql
+      - rest
+      - sphinx search
+    features:
+      - ecommerce
+      - cms
+      - integration
+  - title: Isaac Inspiration Board
+    slug: isaac_inspiration
+    description: |
+      To coincide with the launch of his book 'How to Have Style', Isaac's team collaborated with Intersect to create an interactive version of the 'Inspiration Boards' featured in the book. I created a flexible rest/xml API to integrate with the user-facing Flex app.
+    launched: Oct 4 2008
+    links: 
+      - isaacmizrahiny.com/community/inspiration_boards|isaacmizrahiny.com
+    technologies:
+      - ruby
+      - ruby on rails
+      - rest
+      - xml
+    features:
+      - flash integration
+  - title: Whitney Art Party 2008
+    slug: whitney
+    description: |
+      Intersect and Quirkey built an online bidding and ticketing system for the Whitney Museum's annual Art Party. The site featured a content-management system so the client could manage the artwork, bidding and content of the site.
+    launched: May 30 2008
+    links:
+      - whitneyartparty.org
+    technologies:
+      - ruby
+      - ruby on rails
+      - mysql
+    features:
+      - ecommerce
+      - auction
+      - cms
+  - title: RadioTail
+    slug: radiotail
+    description: |
+      The RadioTail corporate site is a combination of a custom PHP framework and Wordpress as a content managment system.
+    launched: Oct. 2005
+    links: 
+      - radiotail.com
+    technologies:
+      - php
+      - wordpress
+    features:
+      - blog
+      - cms
+  - title: RadioTail Ripple
+    slug: ripple
+    description: |
+      RadioTail Ripple was a free website for managing Podcasts and getting detailed statistics about listenership. It was built on a custom PHP framework that implemented the MVC design pattern. A custom graphing utility was also included.
+    launched: Feb 2006
+    links:
+      - radiotail.com/ripple
+    technologies:
+      - php
+      - mysql
+      - gd
+      - rss
+    features:
+      - graphing
+      - mp3
+  - title: Meltwater
+    slug: meltwater
+    description: |
+      Meltwater News corporate site is based on an xml flat-file CMS that is served by a minimal PHP parsing and templating engine. Using the UTF-8 common format and simple naming conventions we were able to have the site exist in multiple (7+) languages.
+    links: 
+      - meltwaternews.com
+    launched: March 1 2007
+    technologies:
+      - php
+      - apache
+      - xml
+    features:
+      - multi-lingual
+  - title: Static Model
+    project_type: open_source
+    slug: static_model
+    description: |
+      A simple persitence library that uses yaml flat files to store data. Modeled after Active Record it plays nicely with all the different web-frameworks.
+    links:
+      - quirkey.rubyforge.org/static_model|on rubyforge
+      - github.com/quirkey/static_model|on github
+    technologies:
+      - ruby
+      - yaml
+      - ruby gems
+    features:
+      - portability
+      - generator
+  - title: Purse
+    project_type: open_source
+    slug: purse
+    description: |
+      Purse is a command-line application for storing and encrypting 'sensitive' text, such as server info and passwords. It uses git to version and store the data remotely.
+    links:
+      - quirkey.rubyforge.org/static_model|on rubyforge
+      - github.com/quirkey/static_model|on github
+    technologies:
+      - ruby
+      - yaml
+      - ruby gems
+      - git
+    features:
+      - encryption
+      - command line interface
+  - title: sinatra-gen
+    project_type: open_source
+    slug: sinatra-gen
+    description: |
+      Sinatra-gen is a command-line generator for building skeletons for Sinatra apps.
+    links:
+      - github.com/quirkey/sinatra-gen|on github
+    technologies:
+      - ruby
+      - git
+      - sinatra
+    features:
+      - generator
+      - command line interface
+  - title: columnlog
+    project_type: open_source
+    slug: columnlog
+    description: |
+      Columnlog is an open-source feed aggregator, built in Sinatra.
+    links:
+      - github.com/quirkey/columnlog|on github
+      - wehavelazers.com
+      - log.quirkey.com
+    technologies:
+      - ruby
+      - sinatra
+      - static model
+      - yaml
+    features:
+      - feed aggregation

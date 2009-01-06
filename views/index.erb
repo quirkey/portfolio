@@ -1,0 +1,46 @@
+<div id="project_holder"></div>
+<div id="content">
+  <div class="category_list_holder">
+    <h2>Technologies</h2>
+    <div id="technologies" class="category_list">
+      <ul>
+        <% Portfolio::Project.technologies.each do |tech| %>
+        <% tech_slug = tech.gsub(' ', '_')  %>
+        <li class="category_select tech_<%= tech_slug %>"><a href="#tech/<%= tech_slug %>"><%= tech %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="category_list_holder">
+    <h2>Features</h2>
+    <div id="technologies" class="category_list">
+      <ul>
+        <% Portfolio::Project.features.each do |tech| %>
+        <% tech_slug = tech.gsub(' ', '_')  %>
+        <li class="category_select feature_<%= tech_slug %>"><a href="#feature/<%= tech_slug %>"><%= tech %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <h2>Selected Projects</h2>
+  <div id="projects">
+    <% @projects.each do |project| %>
+    <div class="project <%= project.category_classes.join(' ') %>">
+      <div class="project_image"><a href="#project/<%= project.id %>" title="<%= project.title %>"><%= project_image(project, :thumb) %></a></div>
+    </div>
+    <% end %>
+    <div class="clear"></div>
+    <h3>Open Source</h3>
+    <% @open_source_projects.each do |project| %>
+    <div class="project <%= project.category_classes.join(' ') %>">
+      <div class="project_image"><a href="#project/<%= project.id %>" title="<%= project.title %>"><%= project_image(project, :thumb) %></a></div>
+    </div>
+    <% end %>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+$(function() {	
+  Portfolio.initialize();
+});
+</script>

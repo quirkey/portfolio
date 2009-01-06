@@ -1,0 +1,49 @@
+<% unless @layout %>
+<div id="project_shadow_holder">
+<% end %>
+	<div class="project_detail" id="project_<%= @project.id %>">
+		<% unless @layout %>
+		<div class="project_close"><a href="/"><img src="/images/close.png" alt="X" /></a></div>
+		<% else %>
+		<div class="project_close"><a href="/">&laquo; Back</a></div>
+		<% end %>
+		<h3><%= @project.title %></h3>
+		<div class="project_image"><%= project_image(@project, :medium) %></div>
+		<div class="project_description">
+			<%= textilize(@project.description) %>
+			<% if @project.launched %>
+			<h4>Launched</h4>
+			<p><%= @project.launched_at.strftime('%B %Y') %></p>
+			<% end %>
+		</div>
+		<div class="clear"></div>
+		<div class="project_meta project_links">
+			<h4>links</h4>
+			<ul>
+				<% @project.links.each do |link_text, link| %>
+				<li><a href="http://<%= link %>" target="_blank"><%= link_text %> ➟</a></li>
+				<% end %>
+			</ul>
+		</div>
+		<div class="project_meta project_technologies category_list">
+			<h4>technologies</h4>
+			<ul>
+				<% @project.technologies.compact.each do |tech| %>
+				<li class="category_select"><a href="/#tech/<%= tech.gsub(' ', '_') %>"><%= tech %></a></li>
+				<% end %>
+			</ul>
+		</div>
+		<div class="project_meta project_technologies category_list">
+			<h4>features</h4>
+			<ul>
+				<% @project.features.compact.each do |feature| %>
+				<li class="category_select"><a href="/#feature/<%= feature.gsub(' ', '_') %>"><%= feature %></a></li>
+				<% end %>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+<% unless @layout %>
+</div>
+<div id="project_shadow_bottom"><img src="/images/project_shadow_bottom.png" alt="" /></div>
+<% end %>
